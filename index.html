@@ -26,6 +26,17 @@
   <script src="staking.js"></script>
   <script src="liquidity.js"></script>
   <script src="portfolio.js"></script>
+<script src="https://s3.tradingview.com/tv.js"></script>
 
+<div id="chart" style="height:400px;"></div>
+
+<script>
+new TradingView.widget({
+  container_id: "chart",
+  symbol: "BINANCE:ZILAUSDT",
+  interval: "D",
+  theme: "dark"
+});
+</script>
 </body>
 </html>
