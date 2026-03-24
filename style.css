@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #111;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  background: #0f0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1) rotateX(5deg);
+  box-shadow: 0 0 15px lime;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  transform-style: preserve-3d;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
