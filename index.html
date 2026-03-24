@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CROC DEX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>🐊 CROC DEX</h1>
+    <div>
+      <button onclick="showPage('swap')">Swap</button>
+      <button onclick="showPage('liquidity')">Liquidity</button>
+      <button onclick="showPage('staking')">Staking</button>
+      <button onclick="showPage('portfolio')">Portfolio</button>
+      <button onclick="connectWallet()">Connect</button>
+    </div>
+  </div>
+
+  <div id="app"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.6.2/dist/ethers.umd.min.js"></script>
+  <script src="app.js"></script>
+  <script src="swap.js"></script>
+  <script src="staking.js"></script>
+  <script src="liquidity.js"></script>
+  <script src="portfolio.js"></script>
+
+</body>
+</html>
