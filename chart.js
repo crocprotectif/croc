@@ -1,7 +1,7 @@
 function loadChart() {
   new TradingView.widget({
     container_id: "chart",
-    symbol: "BINANCE:ZILAWPOL",
+    symbol: "BINANCE:ZILAUSDT",
     interval: "15",
     theme: "dark",
     style: "1",
